@@ -33,5 +33,5 @@ def PCA(filename, dimension):
 
 
 if __name__ == '__main__':
-    Y, LJGXL = PCA(filename, dimension)
+    Y, LJGXL = PCA('./1.csv', 2)
     print(Y)
